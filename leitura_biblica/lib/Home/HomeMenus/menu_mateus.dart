@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:leitura_biblica/Home/home_page.dart';
 
-class MenuGenesis extends StatefulWidget {
-  const MenuGenesis({Key? key}) : super(key: key);
+class MenuMateus extends StatefulWidget {
+  const MenuMateus({Key? key}) : super(key: key);
 
   @override
-  _MenuGenesisState createState() => _MenuGenesisState();
+  _MenuMateusState createState() => _MenuMateusState();
 }
 
-class _MenuGenesisState extends State<MenuGenesis> {
+class _MenuMateusState extends State<MenuMateus> {
   late ScrollController _scrollController;
   List todasdescricoes = [
-    'Plano de leitura anual começando pelo livro de gênesis.',
+    'Plano de leitura anual começando pelo livro de mateus.',
   ];
   late String descricao;
   @override
@@ -46,11 +46,11 @@ class _MenuGenesisState extends State<MenuGenesis> {
                 scrollDirection: Axis.horizontal,
                 children: <Widget>[
                   getMenuCard(
-                      'Lâmpada para os meus pés é a\n'
-                          'tua palavra, e luz para o meu caminho.\n'
-                          ' Salmos 119:105',
-                      'Boas práticas',
-                      'Bons costumes')
+                      'Bem-aventurados os que choram, \n'
+                          'pois serão consolados.\n'
+                          'Mateus 5:4',
+                      'Bom relacionamento',
+                      'com Deus.')
                 ])),
         const Padding(
           padding: EdgeInsets.only(left: 25.0, top: 10.0),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:leitura_biblica/Home/HomeMenus/menu_genesis.dart';
+import 'package:leitura_biblica/Home/HomeMenus/menu_mateus.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -31,7 +32,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
             color: Colors.transparent,
           ),
           Container(
-            height: 200.0,
+            height: 250.0,
             decoration: const BoxDecoration(
                 image: DecorationImage(
               image: AssetImage('images/cruz.jpg'),
@@ -40,7 +41,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           ),
           Positioned(
             left: 25.0,
-            top: 110.0,
+            top: 80.0,
             child: Container(
               height: 800.0,
               width: 400.0,
@@ -149,7 +150,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         controller: tabController,
                         children: const <Widget>[
                           MenuGenesis(),
-                          MenuGenesis(),
+                          MenuMateus(),
                           MenuGenesis()
                         ],
                       ))
