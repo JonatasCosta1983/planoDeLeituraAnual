@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:leitura_biblica/Home/HomeMenus/menu_genesis.dart';
 import 'package:leitura_biblica/Home/HomeMenus/menu_mateus.dart';
+import 'package:leitura_biblica/Home/HomeMenus/menu_pix.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -151,7 +152,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                         children: const <Widget>[
                           MenuGenesis(),
                           MenuMateus(),
-                          MenuGenesis()
+                          MenuPix()
                         ],
                       ))
                 ],
