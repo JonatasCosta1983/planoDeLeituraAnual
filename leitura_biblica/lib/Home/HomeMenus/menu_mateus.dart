@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:leitura_biblica/Home/home_page.dart';
+import 'package:leitura_biblica/Sub_Menu_Mateus/sub_menu_mateus.dart';
 
 class MenuMateus extends StatefulWidget {
   const MenuMateus({Key? key}) : super(key: key);
@@ -223,7 +223,7 @@ class _MenuMateusState extends State<MenuMateus> {
               child: InkWell(
                 onTap: () {
                   Navigator.of(context).push(MaterialPageRoute(
-                      builder: (context) => const HomePage()));
+                      builder: (context) => const SubMenuMateus()));
                 },
                 child: const Center(
                   child: Icon(Icons.library_add, color: Colors.white),
