@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:leitura_biblica/Home/home_page.dart';
+import 'package:leitura_biblica/db/janeiro_mateus.dart';
 
 class JaneiroComecandoMateus extends StatefulWidget {
   const JaneiroComecandoMateus({Key? key}) : super(key: key);
@@ -42,7 +43,7 @@ class _JaneiroComecandoMateusState extends State<JaneiroComecandoMateus> {
             onTap: () {
               Navigator.of(context).push(MaterialPageRoute(
                   builder: (context) =>
-                      const HomePage())); // TabelaLetras(cookiename: name, assetPath: imgPath)));
+                      const JaneiroMateus())); // TabelaLetras(cookiename: name, assetPath: imgPath)));
             },
             child: Container(
                 decoration: BoxDecoration(

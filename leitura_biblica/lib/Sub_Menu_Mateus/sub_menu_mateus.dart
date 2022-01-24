@@ -52,7 +52,7 @@ class _SubMenuMateusState extends State<SubMenuMateus>
                 unselectedLabelColor: const Color(0xffcdcdcd),
                 tabs: const <Widget>[
                   Tab(
-                      child: Text('Comece & Náo desista',
+                      child: Text('Comece & Não desista',
                           style: TextStyle(
                             fontFamily: 'Varela',
                             fontSize: 21.0,
