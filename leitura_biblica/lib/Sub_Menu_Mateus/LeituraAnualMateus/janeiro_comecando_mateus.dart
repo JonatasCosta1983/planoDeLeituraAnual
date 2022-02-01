@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:leitura_biblica/Home/home_page.dart';
-import 'package:leitura_biblica/db/janeiro_mateus.dart';
+import 'package:leitura_biblica/db/fevereiro.dart';
+import 'package:leitura_biblica/db/janeiro.dart';
 
 class JaneiroComecandoMateus extends StatefulWidget {
   const JaneiroComecandoMateus({Key? key}) : super(key: key);
@@ -27,23 +28,22 @@ class _JaneiroComecandoMateusState extends State<JaneiroComecandoMateus> {
                   mainAxisSpacing: 15.0,
                   childAspectRatio: 0.8,
                   children: <Widget>[
-                    _buildCard('Janeiro', context),
-                    _numericabuildCard('Fevereiro', context),
-                    _portuguesbuildCard('Março', context),
-                    _direcionalbuildCard('Abril', context)
+                    _janeiroCard('Janeiro', context),
+                    _fevereioCard('Fevereiro', context),
+                    _marcoCard('Março', context),
+                    _abrilCard('Abril', context)
                   ]))
         ]));
   }
 
-  Widget _buildCard(String name, context) {
+  Widget _janeiroCard(String name, context) {
     return Padding(
         padding:
             const EdgeInsets.only(top: 5.0, bottom: 5.0, left: 5.0, right: 5.0),
         child: InkWell(
             onTap: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) =>
-                      const JaneiroMateus())); // TabelaLetras(cookiename: name, assetPath: imgPath)));
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => const Janeiro()));
             },
             child: Container(
                 decoration: BoxDecoration(
@@ -72,15 +72,14 @@ class _JaneiroComecandoMateusState extends State<JaneiroComecandoMateus> {
   }
 }
 
-Widget _numericabuildCard(String name_1, context) {
+Widget _fevereioCard(String name_1, context) {
   return Padding(
       padding:
           const EdgeInsets.only(top: 5.0, bottom: 5.0, left: 5.0, right: 5.0),
       child: InkWell(
           onTap: () {
-            Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) =>
-                    const HomePage())); //TabelaNumerica(cookiename: name_1, assetPath: imgPath_1)));
+            Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => const Fevereiro()));
           },
           child: Container(
             decoration: BoxDecoration(
@@ -109,15 +108,14 @@ Widget _numericabuildCard(String name_1, context) {
           )));
 }
 
-Widget _portuguesbuildCard(String name_3, context) {
+Widget _marcoCard(String name_3, context) {
   return Padding(
       padding:
           const EdgeInsets.only(top: 5.0, bottom: 5.0, left: 5.0, right: 5.0),
       child: InkWell(
           onTap: () {
-            Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) =>
-                    const HomePage())); //TabelaPortugues(cookiename: name_3, assetPath: imgPath_3)));
+            Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => const HomePage()));
           },
           child: Container(
               decoration: BoxDecoration(
@@ -145,15 +143,14 @@ Widget _portuguesbuildCard(String name_3, context) {
               ]))));
 }
 
-Widget _direcionalbuildCard(String name_4, context) {
+Widget _abrilCard(String name_4, context) {
   return Padding(
       padding:
           const EdgeInsets.only(top: 5.0, bottom: 5.0, left: 5.0, right: 5.0),
       child: InkWell(
           onTap: () {
-            Navigator.of(context).push(MaterialPageRoute(
-                builder: (context) =>
-                    const HomePage())); // TabelaIngles(cookiename: name_4, assetPath: imgPath_4)));
+            Navigator.of(context).push(
+                MaterialPageRoute(builder: (context) => const HomePage()));
           },
           child: Container(
               decoration: BoxDecoration(

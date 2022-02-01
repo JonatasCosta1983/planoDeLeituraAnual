@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:leitura_biblica/Home/home_page.dart';
 import 'package:leitura_biblica/Sub_Menu_Mateus/LeituraAnualMateus/janeiro_comecando_mateus.dart';
 import 'package:leitura_biblica/Sub_Menu_Mateus/LeituraAnualMateus/maio_comecando_mateus.dart';
 import 'package:leitura_biblica/Sub_Menu_Mateus/LeituraAnualMateus/setembro_comecando_mateus.dart';
@@ -27,8 +28,11 @@ class _SubMenuMateusState extends State<SubMenuMateus>
           elevation: 0.0,
           centerTitle: true,
           leading: IconButton(
-            icon: const Icon(Icons.blur_on, color: Color(0xff545d68)),
-            onPressed: () {},
+            icon: const Icon(Icons.arrow_back, color: Color(0xff545d68)),
+            onPressed: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const HomePage()));
+            },
           ),
         ),
         body: ListView(
