@@ -6,116 +6,116 @@ class Janeiro extends StatefulWidget {
   const Janeiro({Key? key}) : super(key: key);
 
   @override
-  _JaneiroMateusState createState() => _JaneiroMateusState();
+  _JaneiroState createState() => _JaneiroState();
 }
 
-class _JaneiroMateusState extends State<Janeiro> {
-  bool _dia01Janairo = false;
-  bool _dia02Janairo = false;
-  bool _dia03Janairo = false;
-  bool _dia04Janairo = false;
-  bool _dia05Janairo = false;
-  bool _dia06Janairo = false;
-  bool _dia07Janairo = false;
-  bool _dia08Janairo = false;
-  bool _dia09Janairo = false;
-  bool _dia10Janairo = false;
-  bool _dia11Janairo = false;
-  bool _dia12Janairo = false;
-  bool _dia13Janairo = false;
-  bool _dia14Janairo = false;
-  bool _dia15Janairo = false;
-  bool _dia16Janairo = false;
-  bool _dia17Janairo = false;
-  bool _dia18Janairo = false;
-  bool _dia19Janairo = false;
-  bool _dia20Janairo = false;
-  bool _dia21Janairo = false;
-  bool _dia22Janairo = false;
-  bool _dia23Janairo = false;
-  bool _dia24Janairo = false;
-  bool _dia25Janairo = false;
-  bool _dia26Janairo = false;
-  bool _dia27Janairo = false;
-  bool _dia28Janairo = false;
-  bool _dia29Janairo = false;
-  bool _dia30Janairo = false;
-  bool _dia31Janairo = false;
+class _JaneiroState extends State<Janeiro> {
+  bool _dia01 = false;
+  bool _dia02 = false;
+  bool _dia03 = false;
+  bool _dia04 = false;
+  bool _dia05 = false;
+  bool _dia06 = false;
+  bool _dia07 = false;
+  bool _dia08 = false;
+  bool _dia09 = false;
+  bool _dia10 = false;
+  bool _dia11 = false;
+  bool _dia12 = false;
+  bool _dia13 = false;
+  bool _dia14 = false;
+  bool _dia15 = false;
+  bool _dia16 = false;
+  bool _dia17 = false;
+  bool _dia18 = false;
+  bool _dia19 = false;
+  bool _dia20 = false;
+  bool _dia21 = false;
+  bool _dia22 = false;
+  bool _dia23 = false;
+  bool _dia24 = false;
+  bool _dia25 = false;
+  bool _dia26 = false;
+  bool _dia27 = false;
+  bool _dia28 = false;
+  bool _dia29 = false;
+  bool _dia30 = false;
+  bool _dia31 = false;
 
   _salvarDialido() async {
     final prefs = await SharedPreferences.getInstance();
-    prefs.setBool('Dia1', _dia01Janairo);
-    prefs.setBool('Dia2', _dia02Janairo);
-    prefs.setBool('Dia3', _dia03Janairo);
-    prefs.setBool('Dia4', _dia04Janairo);
-    prefs.setBool('Dia5', _dia05Janairo);
-    prefs.setBool('Dia6', _dia06Janairo);
-    prefs.setBool('Dia7', _dia07Janairo);
-    prefs.setBool('Dia8', _dia08Janairo);
-    prefs.setBool('Dia9', _dia09Janairo);
-    prefs.setBool('Dia10', _dia10Janairo);
-    prefs.setBool('Dia11', _dia11Janairo);
-    prefs.setBool('Dia12', _dia12Janairo);
-    prefs.setBool('Dia13', _dia13Janairo);
-    prefs.setBool('Dia14', _dia14Janairo);
-    prefs.setBool('Dia15', _dia15Janairo);
-    prefs.setBool('Dia16', _dia16Janairo);
-    prefs.setBool('Dia17', _dia17Janairo);
-    prefs.setBool('Dia18', _dia18Janairo);
-    prefs.setBool('Dia19', _dia19Janairo);
-    prefs.setBool('Dia20', _dia20Janairo);
-    prefs.setBool('Dia21', _dia21Janairo);
-    prefs.setBool('Dia22', _dia22Janairo);
-    prefs.setBool('Dia23', _dia23Janairo);
-    prefs.setBool('Dia24', _dia24Janairo);
-    prefs.setBool('Dia25', _dia25Janairo);
-    prefs.setBool('Dia26', _dia26Janairo);
-    prefs.setBool('Dia27', _dia27Janairo);
-    prefs.setBool('Dia28', _dia28Janairo);
-    prefs.setBool('Dia29', _dia29Janairo);
-    prefs.setBool('Dia30', _dia30Janairo);
-    prefs.setBool('Dia31', _dia31Janairo);
+    prefs.setBool('Dia1Janeiro', _dia01);
+    prefs.setBool('Dia2Janeiro', _dia02);
+    prefs.setBool('Dia3Janeiro', _dia03);
+    prefs.setBool('Dia4Janeiro', _dia04);
+    prefs.setBool('Dia5Janeiro', _dia05);
+    prefs.setBool('Dia6Janeiro', _dia06);
+    prefs.setBool('Dia7Janeiro', _dia07);
+    prefs.setBool('Dia8Janeiro', _dia08);
+    prefs.setBool('Dia9Janeiro', _dia09);
+    prefs.setBool('Dia10Janeiro', _dia10);
+    prefs.setBool('Dia11Janeiro', _dia11);
+    prefs.setBool('Dia12Janeiro', _dia12);
+    prefs.setBool('Dia13Janeiro', _dia13);
+    prefs.setBool('Dia14Janeiro', _dia14);
+    prefs.setBool('Dia15Janeiro', _dia15);
+    prefs.setBool('Dia16Janeiro', _dia16);
+    prefs.setBool('Dia17Janeiro', _dia17);
+    prefs.setBool('Dia18Janeiro', _dia18);
+    prefs.setBool('Dia19Janeiro', _dia19);
+    prefs.setBool('Dia20Janeiro', _dia20);
+    prefs.setBool('Dia21Janeiro', _dia21);
+    prefs.setBool('Dia22Janeiro', _dia22);
+    prefs.setBool('Dia23Janeiro', _dia23);
+    prefs.setBool('Dia24Janeiro', _dia24);
+    prefs.setBool('Dia25Janeiro', _dia25);
+    prefs.setBool('Dia26Janeiro', _dia26);
+    prefs.setBool('Dia27Janeiro', _dia27);
+    prefs.setBool('Dia28Janeiro', _dia28);
+    prefs.setBool('Dia29Janeiro', _dia29);
+    prefs.setBool('Dia30Janeiro', _dia30);
+    prefs.setBool('Dia31Janeiro', _dia31);
   }
 
   _recuperarDialido() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      _dia01Janairo = (prefs.getBool('Dia1')) ?? false;
-      _dia02Janairo = (prefs.getBool('Dia2')) ?? false;
-      _dia03Janairo = (prefs.getBool('Dia3')) ?? false;
-      _dia04Janairo = (prefs.getBool('Dia4')) ?? false;
-      _dia05Janairo = (prefs.getBool('Dia5')) ?? false;
-      _dia06Janairo = (prefs.getBool('Dia6')) ?? false;
-      _dia07Janairo = (prefs.getBool('Dia7')) ?? false;
-      _dia08Janairo = (prefs.getBool('Dia8')) ?? false;
-      _dia09Janairo = (prefs.getBool('Dia9')) ?? false;
-      _dia10Janairo = (prefs.getBool('Dia10')) ?? false;
-      _dia11Janairo = (prefs.getBool('Dia11')) ?? false;
-      _dia12Janairo = (prefs.getBool('Dia12')) ?? false;
-      _dia13Janairo = (prefs.getBool('Dia13')) ?? false;
-      _dia14Janairo = (prefs.getBool('Dia14')) ?? false;
-      _dia15Janairo = (prefs.getBool('Dia15')) ?? false;
-      _dia16Janairo = (prefs.getBool('Dia16')) ?? false;
-      _dia17Janairo = (prefs.getBool('Dia17')) ?? false;
-      _dia18Janairo = (prefs.getBool('Dia18')) ?? false;
-      _dia19Janairo = (prefs.getBool('Dia19')) ?? false;
-      _dia20Janairo = (prefs.getBool('Dia20')) ?? false;
-      _dia21Janairo = (prefs.getBool('Dia21')) ?? false;
-      _dia22Janairo = (prefs.getBool('Dia22')) ?? false;
-      _dia23Janairo = (prefs.getBool('Dia23')) ?? false;
-      _dia24Janairo = (prefs.getBool('Dia24')) ?? false;
-      _dia25Janairo = (prefs.getBool('Dia25')) ?? false;
-      _dia26Janairo = (prefs.getBool('Dia26')) ?? false;
-      _dia27Janairo = (prefs.getBool('Dia27')) ?? false;
-      _dia28Janairo = (prefs.getBool('Dia28')) ?? false;
-      _dia29Janairo = (prefs.getBool('Dia29')) ?? false;
-      _dia30Janairo = (prefs.getBool('Dia30')) ?? false;
-      _dia31Janairo = (prefs.getBool('Dia31')) ?? false;
+      _dia01 = (prefs.getBool('Dia1Janeiro')) ?? false;
+      _dia02 = (prefs.getBool('Dia2Janeiro')) ?? false;
+      _dia03 = (prefs.getBool('Dia3Janeiro')) ?? false;
+      _dia04 = (prefs.getBool('Dia4Janeiro')) ?? false;
+      _dia05 = (prefs.getBool('Dia5Janeiro')) ?? false;
+      _dia06 = (prefs.getBool('Dia6Janeiro')) ?? false;
+      _dia07 = (prefs.getBool('Dia7Janeiro')) ?? false;
+      _dia08 = (prefs.getBool('Dia8Janeiro')) ?? false;
+      _dia09 = (prefs.getBool('Dia9Janeiro')) ?? false;
+      _dia10 = (prefs.getBool('Dia10Janeiro')) ?? false;
+      _dia11 = (prefs.getBool('Dia11Janeiro')) ?? false;
+      _dia12 = (prefs.getBool('Dia12Janeiro')) ?? false;
+      _dia13 = (prefs.getBool('Dia13Janeiro')) ?? false;
+      _dia14 = (prefs.getBool('Dia14Janeiro')) ?? false;
+      _dia15 = (prefs.getBool('Dia15Janeiro')) ?? false;
+      _dia16 = (prefs.getBool('Dia16Janeiro')) ?? false;
+      _dia17 = (prefs.getBool('Dia17Janeiro')) ?? false;
+      _dia18 = (prefs.getBool('Dia18Janeiro')) ?? false;
+      _dia19 = (prefs.getBool('Dia19Janeiro')) ?? false;
+      _dia20 = (prefs.getBool('Dia20Janeiro')) ?? false;
+      _dia21 = (prefs.getBool('Dia21Janeiro')) ?? false;
+      _dia22 = (prefs.getBool('Dia22Janeiro')) ?? false;
+      _dia23 = (prefs.getBool('Dia23Janeiro')) ?? false;
+      _dia24 = (prefs.getBool('Dia24Janeiro')) ?? false;
+      _dia25 = (prefs.getBool('Dia25Janeiro')) ?? false;
+      _dia26 = (prefs.getBool('Dia26Janeiro')) ?? false;
+      _dia27 = (prefs.getBool('Dia27Janeiro')) ?? false;
+      _dia28 = (prefs.getBool('Dia28Janeiro')) ?? false;
+      _dia29 = (prefs.getBool('Dia29Janeiro')) ?? false;
+      _dia30 = (prefs.getBool('Dia30Janeiro')) ?? false;
+      _dia31 = (prefs.getBool('Dia31Janeiro')) ?? false;
     });
   }
 
   _todoslidos() {
-    if (_dia01Janairo && _dia09Janairo == true) {
+    if (_dia01 && _dia09 == true) {
       setState(() {
         const snackBar = SnackBar(
           content: Text(
@@ -203,21 +203,21 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia01Janairo ? Colors.black : Colors.grey,
+                              color: _dia01 ? Colors.black : Colors.grey,
                               fontSize: 20.00),
                         ),
                         subtitle: Text(
                           '1 | Mateus | 1-4',
                           style: TextStyle(
-                              color: _dia01Janairo ? Colors.black : Colors.grey,
+                              color: _dia01 ? Colors.black : Colors.grey,
                               fontSize: 20.00),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia01Janairo,
+                        value: _dia01,
                         onChanged: (bool? dia1) {
                           setState(() {
-                            _dia01Janairo = dia1!;
+                            _dia01 = dia1!;
                             _salvarDialido();
                           });
                         },
@@ -226,22 +226,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia02Janairo ? Colors.black : Colors.grey,
+                              color: _dia02 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '2 | Mateus | 5-7',
                           style: TextStyle(
-                            color: _dia02Janairo ? Colors.black : Colors.grey,
+                            color: _dia02 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia02Janairo,
+                        value: _dia02,
                         onChanged: (bool? dia2) {
                           setState(() {
-                            _dia02Janairo = dia2!;
+                            _dia02 = dia2!;
                             _salvarDialido();
                           });
                         },
@@ -250,22 +250,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia03Janairo ? Colors.black : Colors.grey,
+                              color: _dia03 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '3 | Mateus | 8-10',
                           style: TextStyle(
-                            color: _dia03Janairo ? Colors.black : Colors.grey,
+                            color: _dia03 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia03Janairo,
+                        value: _dia03,
                         onChanged: (bool? dia3) {
                           setState(() {
-                            _dia03Janairo = dia3!;
+                            _dia03 = dia3!;
                             _salvarDialido();
                           });
                         },
@@ -274,22 +274,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia04Janairo ? Colors.black : Colors.grey,
+                              color: _dia04 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '4 | Mateus | 11-13',
                           style: TextStyle(
-                            color: _dia04Janairo ? Colors.black : Colors.grey,
+                            color: _dia04 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia04Janairo,
+                        value: _dia04,
                         onChanged: (bool? dia4) {
                           setState(() {
-                            _dia04Janairo = dia4!;
+                            _dia04 = dia4!;
                             _salvarDialido();
                           });
                         },
@@ -298,22 +298,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia05Janairo ? Colors.black : Colors.grey,
+                              color: _dia05 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '5 | Mateus | 14-16',
                           style: TextStyle(
-                            color: _dia05Janairo ? Colors.black : Colors.grey,
+                            color: _dia05 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia05Janairo,
+                        value: _dia05,
                         onChanged: (bool? dia5) {
                           setState(() {
-                            _dia05Janairo = dia5!;
+                            _dia05 = dia5!;
                             _salvarDialido();
                           });
                         },
@@ -322,22 +322,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia06Janairo ? Colors.black : Colors.grey,
+                              color: _dia06 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '6 | Mateus | 17-19',
                           style: TextStyle(
-                            color: _dia06Janairo ? Colors.black : Colors.grey,
+                            color: _dia06 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia06Janairo,
+                        value: _dia06,
                         onChanged: (bool? dia6) {
                           setState(() {
-                            _dia06Janairo = dia6!;
+                            _dia06 = dia6!;
                             _salvarDialido();
                           });
                         },
@@ -346,22 +346,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia07Janairo ? Colors.black : Colors.grey,
+                              color: _dia07 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '7 | Mateus | 17-19',
                           style: TextStyle(
-                            color: _dia07Janairo ? Colors.black : Colors.grey,
+                            color: _dia07 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia07Janairo,
+                        value: _dia07,
                         onChanged: (bool? dia7) {
                           setState(() {
-                            _dia07Janairo = dia7!;
+                            _dia07 = dia7!;
                             _salvarDialido();
                           });
                         },
@@ -370,22 +370,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia08Janairo ? Colors.black : Colors.grey,
+                              color: _dia08 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '8 | Mateus | 23-25',
                           style: TextStyle(
-                            color: _dia08Janairo ? Colors.black : Colors.grey,
+                            color: _dia08 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia08Janairo,
+                        value: _dia08,
                         onChanged: (bool? dia8) {
                           setState(() {
-                            _dia08Janairo = dia8!;
+                            _dia08 = dia8!;
                             _salvarDialido();
                           });
                         },
@@ -394,22 +394,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia09Janairo ? Colors.black : Colors.grey,
+                              color: _dia09 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '9 | Mateus | 26-28',
                           style: TextStyle(
-                            color: _dia09Janairo ? Colors.black : Colors.grey,
+                            color: _dia09 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia09Janairo,
+                        value: _dia09,
                         onChanged: (bool? dia9) {
                           setState(() {
-                            _dia09Janairo = dia9!;
+                            _dia09 = dia9!;
                             _salvarDialido();
                           });
                         },
@@ -418,22 +418,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia10Janairo ? Colors.black : Colors.grey,
+                              color: _dia10 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '10 | Marcos | 01-04',
                           style: TextStyle(
-                            color: _dia10Janairo ? Colors.black : Colors.grey,
+                            color: _dia10 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia10Janairo,
+                        value: _dia10,
                         onChanged: (bool? dia10) {
                           setState(() {
-                            _dia10Janairo = dia10!;
+                            _dia10 = dia10!;
                             _salvarDialido();
                           });
                         },
@@ -442,22 +442,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia11Janairo ? Colors.black : Colors.grey,
+                              color: _dia11 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '11 | Marcos | 05-07',
                           style: TextStyle(
-                            color: _dia11Janairo ? Colors.black : Colors.grey,
+                            color: _dia11 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia11Janairo,
+                        value: _dia11,
                         onChanged: (bool? dia11) {
                           setState(() {
-                            _dia11Janairo = dia11!;
+                            _dia11 = dia11!;
                             _salvarDialido();
                           });
                         },
@@ -466,22 +466,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia12Janairo ? Colors.black : Colors.grey,
+                              color: _dia12 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '12 | Marcos | 08-10',
                           style: TextStyle(
-                            color: _dia12Janairo ? Colors.black : Colors.grey,
+                            color: _dia12 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia12Janairo,
+                        value: _dia12,
                         onChanged: (bool? dia12) {
                           setState(() {
-                            _dia12Janairo = dia12!;
+                            _dia12 = dia12!;
                             _salvarDialido();
                           });
                         },
@@ -490,22 +490,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia13Janairo ? Colors.black : Colors.grey,
+                              color: _dia13 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '13 | Marcos | 11-13',
                           style: TextStyle(
-                            color: _dia13Janairo ? Colors.black : Colors.grey,
+                            color: _dia13 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia13Janairo,
+                        value: _dia13,
                         onChanged: (bool? dia13) {
                           setState(() {
-                            _dia13Janairo = dia13!;
+                            _dia13 = dia13!;
                             _salvarDialido();
                           });
                         },
@@ -514,22 +514,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia14Janairo ? Colors.black : Colors.grey,
+                              color: _dia14 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '14 | Marcos | 11-13',
                           style: TextStyle(
-                            color: _dia14Janairo ? Colors.black : Colors.grey,
+                            color: _dia14 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia14Janairo,
+                        value: _dia14,
                         onChanged: (bool? dia14) {
                           setState(() {
-                            _dia14Janairo = dia14!;
+                            _dia14 = dia14!;
                             _salvarDialido();
                           });
                         },
@@ -538,22 +538,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia15Janairo ? Colors.black : Colors.grey,
+                              color: _dia15 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '15 | Lucas | 01-03',
                           style: TextStyle(
-                            color: _dia15Janairo ? Colors.black : Colors.grey,
+                            color: _dia15 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia15Janairo,
+                        value: _dia15,
                         onChanged: (bool? dia15) {
                           setState(() {
-                            _dia15Janairo = dia15!;
+                            _dia15 = dia15!;
                             _salvarDialido();
                           });
                         },
@@ -562,22 +562,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia16Janairo ? Colors.black : Colors.grey,
+                              color: _dia16 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '16 | Lucas | 4-6',
                           style: TextStyle(
-                            color: _dia16Janairo ? Colors.black : Colors.grey,
+                            color: _dia16 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia16Janairo,
+                        value: _dia16,
                         onChanged: (bool? dia16) {
                           setState(() {
-                            _dia16Janairo = dia16!;
+                            _dia16 = dia16!;
                             _salvarDialido();
                           });
                         },
@@ -586,22 +586,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia17Janairo ? Colors.black : Colors.grey,
+                              color: _dia17 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '17 | Lucas | 7-9',
                           style: TextStyle(
-                            color: _dia17Janairo ? Colors.black : Colors.grey,
+                            color: _dia17 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia17Janairo,
+                        value: _dia17,
                         onChanged: (bool? dia17) {
                           setState(() {
-                            _dia17Janairo = dia17!;
+                            _dia17 = dia17!;
                             _salvarDialido();
                           });
                         },
@@ -610,22 +610,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia18Janairo ? Colors.black : Colors.grey,
+                              color: _dia18 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '18 | Lucas | 10-12',
                           style: TextStyle(
-                            color: _dia18Janairo ? Colors.black : Colors.grey,
+                            color: _dia18 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia18Janairo,
+                        value: _dia18,
                         onChanged: (bool? dia18) {
                           setState(() {
-                            _dia18Janairo = dia18!;
+                            _dia18 = dia18!;
                             _salvarDialido();
                           });
                         },
@@ -634,22 +634,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia19Janairo ? Colors.black : Colors.grey,
+                              color: _dia19 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '19 | Lucas | 13-15',
                           style: TextStyle(
-                            color: _dia19Janairo ? Colors.black : Colors.grey,
+                            color: _dia19 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia19Janairo,
+                        value: _dia19,
                         onChanged: (bool? dia19) {
                           setState(() {
-                            _dia19Janairo = dia19!;
+                            _dia19 = dia19!;
                             _salvarDialido();
                           });
                         },
@@ -658,22 +658,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia20Janairo ? Colors.black : Colors.grey,
+                              color: _dia20 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '20 | Lucas | 16-18',
                           style: TextStyle(
-                            color: _dia20Janairo ? Colors.black : Colors.grey,
+                            color: _dia20 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia20Janairo,
+                        value: _dia20,
                         onChanged: (bool? dia20) {
                           setState(() {
-                            _dia20Janairo = dia20!;
+                            _dia20 = dia20!;
                             _salvarDialido();
                           });
                         },
@@ -682,22 +682,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia21Janairo ? Colors.black : Colors.grey,
+                              color: _dia21 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '21 | Lucas | 19-21',
                           style: TextStyle(
-                            color: _dia21Janairo ? Colors.black : Colors.grey,
+                            color: _dia21 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia21Janairo,
+                        value: _dia21,
                         onChanged: (bool? dia21) {
                           setState(() {
-                            _dia21Janairo = dia21!;
+                            _dia21 = dia21!;
                             _salvarDialido();
                           });
                         },
@@ -706,22 +706,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia22Janairo ? Colors.black : Colors.grey,
+                              color: _dia22 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '22 | Lucas | 22-24',
                           style: TextStyle(
-                            color: _dia22Janairo ? Colors.black : Colors.grey,
+                            color: _dia22 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia22Janairo,
+                        value: _dia22,
                         onChanged: (bool? dia22) {
                           setState(() {
-                            _dia22Janairo = dia22!;
+                            _dia22 = dia22!;
                             _salvarDialido();
                           });
                         },
@@ -730,22 +730,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia23Janairo ? Colors.black : Colors.grey,
+                              color: _dia23 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '23 | João | 1-3',
                           style: TextStyle(
-                            color: _dia23Janairo ? Colors.black : Colors.grey,
+                            color: _dia23 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia23Janairo,
+                        value: _dia23,
                         onChanged: (bool? dia23) {
                           setState(() {
-                            _dia23Janairo = dia23!;
+                            _dia23 = dia23!;
                             _salvarDialido();
                           });
                         },
@@ -754,22 +754,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia24Janairo ? Colors.black : Colors.grey,
+                              color: _dia24 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '24 | João | 4-6',
                           style: TextStyle(
-                            color: _dia24Janairo ? Colors.black : Colors.grey,
+                            color: _dia24 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia24Janairo,
+                        value: _dia24,
                         onChanged: (bool? dia24) {
                           setState(() {
-                            _dia24Janairo = dia24!;
+                            _dia24 = dia24!;
                             _salvarDialido();
                           });
                         },
@@ -778,22 +778,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia25Janairo ? Colors.black : Colors.grey,
+                              color: _dia25 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '25 | João | 7-9',
                           style: TextStyle(
-                            color: _dia25Janairo ? Colors.black : Colors.grey,
+                            color: _dia25 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia25Janairo,
+                        value: _dia25,
                         onChanged: (bool? dia25) {
                           setState(() {
-                            _dia25Janairo = dia25!;
+                            _dia25 = dia25!;
                             _salvarDialido();
                           });
                         },
@@ -802,22 +802,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia26Janairo ? Colors.black : Colors.grey,
+                              color: _dia26 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '26 | João | 10-12',
                           style: TextStyle(
-                            color: _dia26Janairo ? Colors.black : Colors.grey,
+                            color: _dia26 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia26Janairo,
+                        value: _dia26,
                         onChanged: (bool? dia26) {
                           setState(() {
-                            _dia26Janairo = dia26!;
+                            _dia26 = dia26!;
                             _salvarDialido();
                           });
                         },
@@ -826,22 +826,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia27Janairo ? Colors.black : Colors.grey,
+                              color: _dia27 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '27 | João | 13-15',
                           style: TextStyle(
-                            color: _dia27Janairo ? Colors.black : Colors.grey,
+                            color: _dia27 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia27Janairo,
+                        value: _dia27,
                         onChanged: (bool? dia27) {
                           setState(() {
-                            _dia27Janairo = dia27!;
+                            _dia27 = dia27!;
                             _salvarDialido();
                           });
                         },
@@ -850,22 +850,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia28Janairo ? Colors.black : Colors.grey,
+                              color: _dia28 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '28 | João | 16-18',
                           style: TextStyle(
-                            color: _dia28Janairo ? Colors.black : Colors.grey,
+                            color: _dia28 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia28Janairo,
+                        value: _dia28,
                         onChanged: (bool? dia28) {
                           setState(() {
-                            _dia28Janairo = dia28!;
+                            _dia28 = dia28!;
                             _salvarDialido();
                           });
                         },
@@ -874,22 +874,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia29Janairo ? Colors.black : Colors.grey,
+                              color: _dia29 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '29 | João | 19-21',
                           style: TextStyle(
-                            color: _dia29Janairo ? Colors.black : Colors.grey,
+                            color: _dia29 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia29Janairo,
+                        value: _dia29,
                         onChanged: (bool? dia29) {
                           setState(() {
-                            _dia29Janairo = dia29!;
+                            _dia29 = dia29!;
                             _salvarDialido();
                           });
                         },
@@ -898,22 +898,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia30Janairo ? Colors.black : Colors.grey,
+                              color: _dia30 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '30 | Atos | 1-4',
                           style: TextStyle(
-                            color: _dia30Janairo ? Colors.black : Colors.grey,
+                            color: _dia30 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia30Janairo,
+                        value: _dia30,
                         onChanged: (bool? dia30) {
                           setState(() {
-                            _dia30Janairo = dia30!;
+                            _dia30 = dia30!;
                             _salvarDialido();
                           });
                         },
@@ -922,22 +922,22 @@ class _JaneiroMateusState extends State<Janeiro> {
                         title: Text(
                           'Dia | Livro | Capitulo',
                           style: TextStyle(
-                              color: _dia31Janairo ? Colors.black : Colors.grey,
+                              color: _dia31 ? Colors.black : Colors.grey,
                               fontSize: 20.0),
                         ),
                         subtitle: Text(
                           '31 | Atos | 5-7',
                           style: TextStyle(
-                            color: _dia31Janairo ? Colors.black : Colors.grey,
+                            color: _dia31 ? Colors.black : Colors.grey,
                             fontSize: 20.00,
                           ),
                         ),
                         activeColor: Colors.black,
                         checkColor: Colors.white,
-                        value: _dia31Janairo,
+                        value: _dia31,
                         onChanged: (bool? dia31) {
                           setState(() {
-                            _dia31Janairo = dia31!;
+                            _dia31 = dia31!;
                             _salvarDialido();
                             _todoslidos();
                           });
