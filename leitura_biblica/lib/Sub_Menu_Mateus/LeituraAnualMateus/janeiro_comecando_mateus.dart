@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:leitura_biblica/Home/home_page.dart';
 import 'package:leitura_biblica/db/fevereiro.dart';
 import 'package:leitura_biblica/db/janeiro.dart';
+import 'package:leitura_biblica/db/marco.dart';
 
 class JaneiroComecandoMateus extends StatefulWidget {
   const JaneiroComecandoMateus({Key? key}) : super(key: key);
@@ -114,8 +115,8 @@ Widget _marcoCard(String name_3, context) {
           const EdgeInsets.only(top: 5.0, bottom: 5.0, left: 5.0, right: 5.0),
       child: InkWell(
           onTap: () {
-            Navigator.of(context).push(
-                MaterialPageRoute(builder: (context) => const HomePage()));
+            Navigator.of(context)
+                .push(MaterialPageRoute(builder: (context) => const Marco()));
           },
           child: Container(
               decoration: BoxDecoration(
